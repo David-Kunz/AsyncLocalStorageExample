@@ -1,0 +1,12 @@
+{
+  "name": "async-local-storage-example",
+  "version": "1.0.0",
+  "description": "A simple example use case for AsyncLocalStorage",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Dr. David Alexander Kunz",
+  "license": "MIT"
+}
