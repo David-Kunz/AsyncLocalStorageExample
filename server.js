@@ -17,7 +17,7 @@ const performSomeWork = async () => {
 }
 
 let reqId = 0
-app.get('/', async (req, res) => {
+app.get('/', (req, res) => {
   reqId++
   asyncLocalStorage.run(reqId, async () => {
     await performSomeWork()
